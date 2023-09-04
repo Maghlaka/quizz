@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1 , h2{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+footer{
+    background-color: #696969;
+    max-width: 1920px;
+    width: 100%;
+    height: 370px;
+}
+.main{
+    color: #fff;
+    width: 70%;
+    margin: auto;
+    padding-top: 57px;
+}
+a{
+    color: #fff;
+}
+
+.leftside{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 550px;
+    height: 260px;
+    display: inline-block;
+    float: left;
+}
+.leftside p:last-child{
+    margin-top: 100px;
+}
+.leftside p:last-child a{
+    font-size: 13px;
+}
+article img{
+    width: 140px;
+    object-fit: cover;
+}
+article div{
+    
+    display: inline-block;
+    width: 380px;
+    margin-left: 20px;
+}
+
+.rightside {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 280px;
+    height: 260px;
+    display: inline-block;
+    float: right;
+
+}
+.rightside form input{
+    margin-top: 5px;
+    height: 35px;
+    border: 1px solid #fff;
+    display: block;
+    width: 100%;
+}
+.rightside button{
+    margin-top: 10px;
+    color: #fff;
+    padding: 0px;
+    background-color: #164583;
+    height: 35px;
+    display: block;
+    width: 100%;
+    border: none;
+}
+.rightside ul{
+    list-style: none;
+    padding: 0px;
+    margin-top: 88px;
+}
+.rightside ul li{
+    display: inline-block;
+    margin-right: 10px;
+    
+}
